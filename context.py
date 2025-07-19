@@ -8,7 +8,7 @@ mask_model = YOLO("best.pt")
 
 # Video dosyasını aç
 video_path = "video1.mp4"
-cap = cv2.VideoCapture(video_path)
+cap = cv2.VideoCapture("video2.mp4")
 
 # Ayarlar
 DIST_THRESHOLD = 100
